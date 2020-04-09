@@ -1,0 +1,94 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1.28">
+  <suites>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\final_pipeline\target\surefire-reports\TEST-test.OtherTest.xml</file>
+      <name>test.OtherTest</name>
+      <duration>0.001</duration>
+      <time>0.001</time>
+      <nodeId>21</nodeId>
+      <enclosingBlocks>
+        <string>14</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Build</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>0.001</duration>
+          <className>test.OtherTest</className>
+          <testName>mytest</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\final_pipeline\target\surefire-reports\TEST-test.SomeTest.xml</file>
+      <name>test.SomeTest</name>
+      <duration>0.0</duration>
+      <time>0</time>
+      <nodeId>21</nodeId>
+      <enclosingBlocks>
+        <string>14</string>
+      </enclosingBlocks>
+      <enclosingBlockNames>
+        <string>Build</string>
+      </enclosingBlockNames>
+      <cases>
+        <case>
+          <duration>0.0</duration>
+          <className>test.SomeTest</className>
+          <testName>test1</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>test.SomeTest</className>
+          <testName>test2</testName>
+          <skipped>true</skipped>
+          <skippedMessage></skippedMessage>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>test.SomeTest</className>
+          <testName>test3</testName>
+          <skipped>true</skipped>
+          <skippedMessage></skippedMessage>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>test.SomeTest</className>
+          <testName>test4</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: oops
+	at org.junit.Assert.fail(Assert.java:88)
+	at test.Base.run(Base.java:35)
+	at test.SomeTest.test4(SomeTest.java:44)
+</errorStackTrace>
+          <errorDetails>oops</errorDetails>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>test.SomeTest</className>
+          <testName>test5</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>test.SomeTest</className>
+          <testName>test6</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>0.001</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>
