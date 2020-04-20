@@ -1,9 +1,0 @@
-"C:\Program Files\MongoDB\Server\4.2\bin\mongod.exe" --dbpath="c:\data\db" --port 27017 --replSet rs0
-"C:\Program Files\MongoDB\Server\4.2\bin\mongod.exe" --dbpath="c:\shrut\db" --port 27018 --replSet rs0
- mongo --host 127.0.0.1 --port 27017 - open shell using mongo in cmd
-rs.initiate()
-rs.add('12.7.0.0.1:27018');
-rs.status(); - to help see the status of replication 
-mongo --host 127.0.0.1 --port 27018 - open shell using mongo in cmd
-rs.slaveOk() - to enable the slave to query
-query the db to see replication is working correctly
